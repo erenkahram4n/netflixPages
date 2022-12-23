@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-image{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(img/arkaplan.jpg);
+    background-repeat:repeat-y;
+    background-size: cover;
+    background-position: center;
+}
+#netflixlogo{
+    height: 60px;
+}
+footer p, .nav-link, .p-footer{
+    color:grey;
+    text-align: left;
+}
+footer .nav-link:hover{
+    color:grey;
+    text-decoration: underline;
+}
+.arkaplan{
+    background-color: rgb(0,0,0,0.6);
+}
+.arkaplan .row{
+    width: 75%;
+    margin: auto;
+}
+.giris{
+    background-color: rgb(0,0,0,0.6);
+    width: 500px;
+    height: 500px;
+}
